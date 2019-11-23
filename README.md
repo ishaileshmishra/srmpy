@@ -2,9 +2,11 @@
 
 srmpy a calculation and measuring package like, circle, triangle, sphere
 
-all types of mathematical measurements.
+--------------------------------------
+All types of mathematical measurements.
 
-install package:
+---------------
+Install Package:
 
 Create your project name anything of your liking, let's create project on Desktop:
 
