@@ -4,7 +4,7 @@ import math
 def area_circle(radius=None, diameter=None):
     """
     Aah.. tough to remember me :
-    Pie Are Squared... But they are round
+    [ Pie Are Squared... But they are round ]
     Enter the radius, diameter, circumference or area of a Circle to find the other three. The calculations are
     done "live":
     --------------
@@ -15,16 +15,16 @@ def area_circle(radius=None, diameter=None):
     if diameter is given
     A = (π/4) * D2
     --------------
-    :param diameter:
-    :param radius:
+    :param diameter: diameter of the circle
+    :param radius: radius of the circle
     :return: float
     """
     if radius is not None:
         area_by_radius = math.pi * (radius * radius)
         return area_by_radius
     if diameter is not None:
-        area_by_diameter = (math.pi / 4) * (diameter * diameter)
-        return area_by_diameter
+        area_by_dia = (math.pi / 4) * (diameter * diameter)
+        return area_by_dia
     return None
 
 

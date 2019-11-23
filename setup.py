@@ -17,9 +17,12 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     setup_requires=['wheel'],
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License.md :: OSI Approved :: MIT License.md",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        'Intended Audience :: Developers',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     python_requires='>=3.6',
 )

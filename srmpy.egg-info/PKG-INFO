@@ -13,8 +13,11 @@ Description: # srmpy package in python
         all types of mathematical measurements.
         
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
-Classifier: License.md :: OSI Approved :: MIT License.md
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
